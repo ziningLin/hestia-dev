@@ -1,0 +1,65 @@
+# Maven生成的目錄和文件
+/target/
+/build/
+
+# 忽略 Maven Wrapper 相關文件
+/.mvn/wrapper/
+mvnw
+mvnw.cmd
+
+# 忽略 IDE 相關文件
+### Eclipse/STS ###
+.project
+.classpath
+.settings/
+.springBeans/
+.sts4-cache
+.apt_generated
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# 日誌和測試輸出相關文件
+*.log
+/test-output/
+surefire-reports/
+test-output/
+testng-results.xml
+run_result.log
+
+# Node.js 相關文件
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# 忽略其他非必要文件
+*.swp
+*.tmp
+*.ctxt
+.mtj.tmp/
+
+# 忽略編譯生成的文件
+*.class
+
+# 工具生成的配置文件
+.externalToolBuilders/
+
+# 保留主要的源碼、配置文件和README類文件
+!.gitignore
+!.gitattributes
+!pom.xml
+!src/**
+
+# 針對 Maven 使用的資源目錄，保留 source 和 resource 資料夾中的所有內容
+!**/src/main/**/resources/
+!**/src/main/**/java/
+!**/src/test/**/java/
+
+.DS_Store
