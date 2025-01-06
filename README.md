@@ -1,13 +1,3 @@
-## < Commit > 
-1. **避免一次 Commit 大量程式**
-   
-2. **以完整功能或 API 為最小單位進行 Commit**
-
-3. **Commit 前請先在自己的分支上進行測試確定功能正常**
-   
-4. **避免直接修改dev/main，確保在自己的分支上開發**
-
-5. **Commit Message 要有具體意義，描述變更內容**
-
-6. **每個開發段落之前盡量先同步 `dev` 分支的最新版本，避免衝突**
+## < Hestia Backend  > 
+a full-stack project's backend of hotel booking website using Javva with Spring boot, MsSQL
 
